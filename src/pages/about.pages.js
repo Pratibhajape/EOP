@@ -1,9 +1,13 @@
 import Lottie from "lottie-react";
 import about from "../Animations/about.json";
 import ReactTypingEffect from 'react-typing-effect';
+import Navbar from "../components/navbar.components";
+import Header from "../components/header.components";
 const About=()=>{
     return(
         <>
+         <Navbar/>
+         <Header/>
         <div class="container fst-italic text-center fs-1">
         <Lottie animationData={about} loop={true} style={{height:"80vh"}} />
         <h2>Dream oraganizer’s is an event management company. We organize events such as birthday parties ,

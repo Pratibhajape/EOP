@@ -1,5 +1,5 @@
 import { Parallax } from 'react-parallax';
-import bg from "../Assets/bg.jpg";
+import bg from "../Assets/bg.png";
 const Header=()=>{
     return(
         <>
@@ -10,11 +10,11 @@ const Header=()=>{
         
         bgImage={bg}
         bgImageAlt=""
-        strength={200}
+        strength={20}
     >
         <p className="c-txt display-6 d-flex justify-content-center fst-Oleo Script Swash Caps fw-bold"><br/> </p>
     
-        <div style={{ height: '1950px',width:'2000px' }} />
+        <div style={{ height: '450px' }} />
         </Parallax>
         
          </>
